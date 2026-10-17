@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+build/
+
+# SQLite WAL and runtime artifacts
+backend/mandimitra.db-shm
+backend/mandimitra.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Editor
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
